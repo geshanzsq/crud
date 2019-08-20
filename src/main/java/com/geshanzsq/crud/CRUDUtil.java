@@ -38,7 +38,7 @@ public class CRUDUtil {
             driver = pro.getProperty("driverClassName");
             url = pro.getProperty("url");
             username = pro.getProperty("username");
-            String password = pro.getProperty("password");
+            password = pro.getProperty("password");
         } catch (IOException e) {
             logger.error(e.getMessage());
         } catch (Exception e) {
